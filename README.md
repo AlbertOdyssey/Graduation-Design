@@ -1,24 +1,8 @@
 # SringBoot+Vue脚手架
 
-B站所有的付费笔记、源码、代码生成器、成品项目等都打包在VIP群<br><br>
-5.5 - 5.31 活动价永久VIP打6折仅需 66 元，机不可失，时不再来！<br><br>
-如果需要可以加我钉钉：xiaqing1993，微信：xia_qing2012
+前端：Vue3，Vue-Router，Vuex，Axios，ElementUI
 
-## 微信公众号：Java学习指南
-
-关注公众号，回复【软件】，获取配套软件一份
-
-## B站视频教程
-
-https://www.bilibili.com/video/BV14y4y1M7Nc/
-
-## 介绍
-
-这是一个极其简单的前后端分离项目脚手架
-
-前端：Vue，Vue-Router，Vuex，Axios，ElementUI
-
-后台：SpringBoot，Mybatis-Plus（不用写sql，简单！）
+后台：SpringBoot，Mybatis-Plus
 
 ## 如何使用
 
@@ -56,15 +40,9 @@ npm run serve
 - 支付宝沙箱支付
 - SpringSecurity密码加密验证
 
-
-
 ## 注意
 > 1. 数据库的字段设计要以下划线分割，而不是驼峰，例如 可以使用 user_id 而不要使用 userId，字段设计的名称一定要规范
 > 2. 不要使用单个字母作为分割的一部分，例如：不要使用 u_id，而推荐你使用user_id
 > 3. 数据库多表关联查询推荐使用单独的VO来做扩展，尽量不要改动数据库映射的entity，比如你可以加一个类UserVO来扩充一些字段，而不是在User实体里面扩展
 > 4. 如果非要在User实体里面扩展，你需要加上 @TableField(exist=false) 来表示这个字段在数据库不存在，否则会报错
 > 5. 日期字段的格式化，需要使用  @JsonFormat(pattern = "yyyy-MM-dd", timezone = "GMT+8") 注解来做日期解析，可以参考Book实体里面的createTime字段
-
-## 最后，我就问一句
-## 简单不？好使不？三连了没？star了没？
-## 哈哈哈，后面再更新吧~大家保持关注鸭
